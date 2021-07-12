@@ -1,0 +1,15 @@
+{
+  "name": "todolist",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o assets/css/ --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glukhov KA",
+  "license": "NTT",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
