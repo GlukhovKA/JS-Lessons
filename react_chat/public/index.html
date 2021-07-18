@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title></title>
+</head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <title> </title>
-  </head>
-  <body>
-    <section id="container">
-      <div>
-        <label for="username-input">Username</label>
-        <input type="text" id="username-input" class="form-control" />
-        <br />
-        <button id="connect-btn" class="btn btn-primary">Connect</button>
-      </div>
-    </section>
+<body>
+    <header class="header">
+        🙂React chat
+    </header>
+    <div id="container">
+        <div id="login">
+            <label class = "enter-name" for="username-input">Name</label>
+            <input type="text" id="username-input" class="form-control">
+            <button id="connect-btn" class="btn btn-primary">Connect</button>
+        </div>
+    </div>
+
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="lib/react/react-with-addons.js"></script>
@@ -28,10 +31,10 @@
     <script type="text/jsx" src="src/Action.js"></script>
     <script type="text/jsx" src="emitters/ChatEmitter.js"></script>
     <script type="text/jsx" src="src/components/ChatBox.jsx"></script>
+    <script type="text/jsx" src="src/components/UsersList.jsx"></script>
     <script type="text/jsx" src="src/components/ChatMessage.jsx"></script>
     <script type="text/jsx" src="src/components/MessageInput.jsx"></script>
     <script type="text/jsx" src="src/components/MessageList.jsx"></script>
-    <script type="text/jsx" src="src/components/UsersList.jsx"></script>
     <script type="text/jsx" src="src/app.jsx"></script>
-  </body>
+</body>
 </html>

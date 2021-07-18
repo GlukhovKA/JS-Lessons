@@ -1,9 +1,163 @@
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
+  background-color: rgb(183 220 255);
+  color: #ffffff;
+}
+
+.header {
+  width: 100%;
+  background-color: #6395fb;
+  height: 10%;
+  text-align: center;
+  padding-top: 15px;
+  font-size:xx-large;
+  font-weight: 900;
+}
+
+.online {
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  margin-top:10% ;
+  background-color: #6395fb;
+  font-size:large;
+  font-weight: 800;
+}
+
+
+.form-control {
+  height: 60px;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#login {
+  margin: 15% auto 15% auto;
+  margin-top: 200px;
+  border-radius: 20px;
+  width: 44%;
+  height: 30%;
+  background-color: #6395fb;
+}
+
+#username-input {
+  width :84%;
+  margin: auto;
+  margin-top: 20px;
+  height: 20%;
+  font-size: 30px;
+  border-style: hidden;
+
+}
+
+#connect-btn {
+  width: 40%;
+  height: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 20px;
+  background-color: #3879ff;
+  margin-top: 6%;
+  font-size: 20px;
+
+}
+
+.enter-name {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size:xx-large;
+  font-weight: 700;
+  
 }
 
 #container {
-    width: 100%;
-    margin: auto;
-    height: 100%;
+  width: 50%;
+  margin: auto;
+  margin-top: 0;
+  height: 80%;
+}
+
+
+.chat-box {
+  height: 95%;
+}
+
+.chat-content {
+  height: 108%;
+}
+
+.chat-messages {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.chat-message {
+  min-height: 30px;
+  padding-left: 15px;
+  margin: 6px;
+  padding-bottom: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  border-style: hidden;
+}
+
+.chat-messages-empty {
+  padding: 20px;
+  color: rgb(160 160 160);
+  margin-top: 650px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.chat-message-content {
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+  margin-left: 8px;
+  word-wrap: break-word;
+  margin-right: 8px;
+}
+
+.chat-message-author {
+  font-size: 15px;
+  margin: 5px;
+  color: black;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.activeUsers {
+  position: absolute;
+  font-size: 24px;
+  margin-left: -15%;
+  margin-top: 2.9%;
+
+}
+
+.UsersOnFrame {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  width: 330px;
+  border-radius: 10px;
+  margin-left: -32%;
+}
+
+.chat-users {
+  text-transform: uppercase;
+  float: left;
+  margin-left: -67%;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 2px rgb(160, 144, 0);
 }

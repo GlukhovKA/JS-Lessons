@@ -1,6 +1,6 @@
 {
   "name": "react_chat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "chat on sockets",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,5 @@
     "express": "~4.8.4",
     "peer": "~0.2.6",
     "socket.io": "~1.0.6"
-  },
-  "devDependencies": {
-    "eslint": "^7.30.0",
-    "eslint-config-google": "^0.14.0"
   }
 }
